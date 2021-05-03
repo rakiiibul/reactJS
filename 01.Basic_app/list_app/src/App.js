@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import video from './bunny-ears.mp4';
 
 class App extends Component {
   render() {
@@ -13,6 +14,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <video autoPlay loop>
+        <source src={video}></source>
+        </video>
       </div>
     );
   }
