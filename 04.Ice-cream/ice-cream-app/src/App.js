@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import About from './components/portfolio/About/About';
+import Layout from './components/Layout/layout';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-      <About/>
-    
+      <Layout/>
+   
       </div>
     );
   }

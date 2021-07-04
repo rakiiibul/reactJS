@@ -1,0 +1,20 @@
+.logo{
+    width: 60px;
+  }
+  
+.reactLogo{
+    height: 60px;
+    vertical-align: middle;
+  }
+.Logo{
+    height: 100%;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Logo img{
+    height: 100%;
+}
